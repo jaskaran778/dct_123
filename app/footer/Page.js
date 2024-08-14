@@ -9,7 +9,7 @@ import '../css/Footer.css';
 export default function Footer2() {
   return (
     <div className="h-fit rounded-md bg-neutral-900 flex flex-col items-center justify-center relative w-full">
-        <div className="relative w-full flex-col py-8 md:flex-row z-10 text-xl md:text-2xl md:leading-tight px-8 mx-auto tracking-tight font-medium flex items-center gap-2 md:gap-8">
+        <div className="relative w-full flex-col py-8 md:flex-row z-10 text-xl md:text-2xl md:leading-tight px-12 mx-auto tracking-tight font-medium flex items-center gap-2 md:gap-8">
             <div className="footer-cont">
                 <div className="row1">
                     <div className="col1">
@@ -21,9 +21,9 @@ export default function Footer2() {
                             <strong>Address</strong>: RAJEEV NAGAR, NEW DELHI <br />
                             INDIA - 110086
                         </div>
-                        <div className="col13  col1-each linkedin">
+                        <div className="col13 col1-each linkedin">
                             <span className="find-heading">Find Us On</span> <br />
-                            <a href="https://www.linkedin.com/company/data-culture-technolgies/" target="blank"> <Image src="/linked.svg" alt="LinkedIn" width={30} height={30} />
+                            <a href="https://www.linkedin.com/company/data-culture-technolgies/" target="blank"> <Image src="/linked.svg" alt="LinkedIn" width={25} height={25} />
                             </a>
                         </div>
                     </div>
@@ -33,6 +33,8 @@ export default function Footer2() {
                         <div className="each-service">Fintech</div>
                         <div className="each-service">Digital Marketing</div>
                         <div className="each-service">AI & ML Ops</div>
+                        <div className="each-service">Data Science</div>
+                        <div className="each-service">Frontend Development</div>
                     </div>
                 </div>
                 <div className="row2">

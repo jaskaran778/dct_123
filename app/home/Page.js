@@ -1,6 +1,6 @@
 import Hero from "./Hero_DCT";
 import About from "./About_DCT";
-import Services from "./Services";
+import ServicesPage from "./Services";
 import Lorems from "./Lorem";
 import Globe2 from "./Globe2";
 
@@ -13,7 +13,7 @@ export default function HomePage() {
       <div >
       <About />
       </div>
-      <Services />
+      <ServicesPage />
       <Globe2 />
       <Lorems />  
     </div>

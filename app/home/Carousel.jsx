@@ -7,7 +7,7 @@ import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 import CloseIcon from '@mui/icons-material/Close';
 import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
-import { cn } from "@/lib/utils"; // You might need to create this utility function
+import { cn } from "@/lib/utils"; 
 
 const CarouselContext = createContext({
   onCardClose: (index) => {},

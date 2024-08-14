@@ -3,17 +3,15 @@
 import React from 'react'
 import Navbar2 from '../navbar/Page';
 import Footer2 from '../footer/Page';
-import ServicesPage from '../home/Services';
 
-export default function Services(){
+export default function Blog(){
   return (
     <div className='bg-black'>
       <Navbar2 />
-      <div className='my-40 text-white'>
-        <ServicesPage />
-      </div>
+      <div className='my-20  text-white'>Blog</div>
       <Footer2 />
     </div>
     
   )
 }
+
