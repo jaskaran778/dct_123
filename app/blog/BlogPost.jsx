@@ -7,7 +7,7 @@ const BlogPost = ({ slug }) => {
     "machine-learning-perspectives": {
       title: "Machine Learning: A Data Science Process Perspectives",
       content: `
-        <div style="text-align: center; margin-bottom: 20px;">
+        <div style="text-align: center; margin-bottom: 20px; color:#fff">
           <Image src="/images/img1.jpeg" alt="Data science process" width={600} height={400} />
         </div>
 
@@ -86,7 +86,7 @@ const BlogPost = ({ slug }) => {
   const post = blogContent[slug];
 
   return (
-    <div className="max-w-3xl mx-auto p-6">
+    <div className="max-w-3xl mx-auto p-6 text-white">
       <Link href="/blog" legacyBehavior>
         <a className="text-blue-500 hover:text-blue-700 flex items-center mb-4">
           ← Back to Blogs

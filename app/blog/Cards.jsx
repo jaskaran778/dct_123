@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const BlogCard = ({ title, date, slug }) => (
   <Link href={`/blog/${slug}`}>
-    <div className="bg-white rounded-lg shadow-md p-6 max-w-sm hover:shadow-lg transition-shadow cursor-pointer">
+    <div className="bg-[#191a1c] rounded-lg shadow-md p-6 max-w-sm hover:shadow-lg transition-shadow cursor-pointer">
       <h2 className="text-xl font-bold mb-4 text-navy-blue">{title}</h2>
       <div className="flex items-center">
         <span className="ml-auto text-gray-500">{date}</span>

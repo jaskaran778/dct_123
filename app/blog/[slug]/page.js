@@ -2,5 +2,9 @@
 import BlogPost from "../BlogPost";
 
 export default function BlogPostPage({ params }) {
-  return <BlogPost slug={params.slug} />;
+  return (
+    <div className="bg-black h-full w-full">
+      <BlogPost slug={params.slug} />;
+    </div>
+  );
 }
