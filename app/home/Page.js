@@ -7,15 +7,15 @@ import Globe2 from "./Globe2";
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-black">
-      <div className="mt-20 mb-40">
-      <Hero />
+      <div className="">
+        <Hero />
       </div>
-      <div >
-      <About />
+      <div>
+        <About />
       </div>
       <ServicesPage />
       <Globe2 />
-      <Lorems />  
+      <Lorems />
     </div>
   );
 }
