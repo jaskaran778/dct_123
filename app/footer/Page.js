@@ -27,7 +27,7 @@ export default function Footer2() {
                 </span>
               </div>
               <div className="col12 col1-each  address">
-                <strong> Address </strong>: Sector 1, Greater Noida West, <br /> Gautam Buddha Nagar, Uttar Pradesh, <br /> Pin: 201306 India <br />
+                <strong> Address </strong>:&nbsp; Sector 1, Greater Noida West, <br /> Gautam Buddha Nagar, Uttar Pradesh, <br /> Pin: 201306 India <br />
               </div>
               <div className="col13 col1-each linkedin">
                 <span className="find-heading">Find Us On</span> <br />
