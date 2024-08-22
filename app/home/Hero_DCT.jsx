@@ -8,7 +8,7 @@ export default function Hero() {
     <div className="w-[calc(100%-4rem)] mx-auto rounded-md h-[40rem] overflow-hidden mb-28 mq750:mt-[10vh]">
       <Vortex
         backgroundColor="black"
-        className="flex items-center flex-col justify-center px-2 md:px-10 py-16 w-full h-full"
+        className="flex items-center flex-col justify-center px-2 md:px-10 p w-full h-full"
       >
         <h2 className="text-white text-2xl mr-4 md:text-5xl font-bold text-center">
           Pioneering Innovation <br /> with Smart Technology Solutions
