@@ -76,6 +76,7 @@ export default function Footer2() {
             </div>
             <div className="r2 c2">
               <p>Made with ❤️ In India</p>
+              
             </div>
           </div>
         </div>
