@@ -76,9 +76,11 @@ export default function Footer2() {
             </div>
             <div className="r2 c2">
               <p>Made with ❤️ In India</p>
+              <p>This line is written only for testing purpose - sanskriti</p>
             </div>
           </div>
         </div>
+        
       </div>
       {/* <ShootingStars />
       <StarsBackground /> */}
